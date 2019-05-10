@@ -151,7 +151,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Huffman_code.cpp" />
+    <ClCompile Include="BoolVector.cpp" />
+    <ClCompile Include="Huffman.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Plurality.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoolVector.h" />
+    <ClInclude Include="DynamycArray.h" />
+    <ClInclude Include="Huffman.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Plurality.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
